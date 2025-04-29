@@ -1,0 +1,17 @@
+# IntelliJ project files
+.idea/
+*.iml
+
+# Java class files
+*.class
+
+# Logs
+*.log
+
+# Compiled output
+/out/
+/target/
+/build/
+
+# macOS system files
+.DS_Store
