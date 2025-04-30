@@ -8,7 +8,7 @@
     Output: 4 7
 
     Explanation: The floor of 5 in the array is 4, and the ceiling of 5 in the array is 7.
-    
+
     Input : nums =[3, 4, 4, 7, 8, 10], x= 8
 
     Output: 8 8
@@ -20,7 +20,7 @@ package binarySearch.arrays_1D;
 public class FloorAndCeil {
 
     public int ceil(int[] nums, int x) {
-        // It is the lower bound algo
+        // IT IS THE LOWER BOUND ALGORITHM
         int n = nums.length;
         int low = 0, high = n-1,ans = -1;
         while(low <= high){
@@ -36,7 +36,7 @@ public class FloorAndCeil {
     }
 
     public int floor(int[] nums, int x) {
-        // It is kind of reverse of lower bound algo
+        // IT IS KIND OF REVERSE OF LOWER BOUND ALGORITHM
         int n = nums.length;
         int low = 0, high = n-1, ans = -1;
         while(low <= high){
