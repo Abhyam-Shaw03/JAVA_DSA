@@ -16,9 +16,9 @@
 
     Explanation: Index 3 is the smallest index such that arr[3] >= x.
  */
-package binarySearch.Arrays_1D;
+package binarySearch.arrays_1D;
 
-public class lowerBound {
+public class LowerBound {
     public int lowerBound(int[] nums, int x) {
         int n = nums.length;
         int low = 0, high = n-1,ans = n;

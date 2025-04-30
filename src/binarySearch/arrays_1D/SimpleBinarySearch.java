@@ -2,9 +2,9 @@
     Given a sorted array of integers nums with 0-based indexing, find the index of a specified target integer. If the target is found in the array, return its index. If the target is not found, return -1.
 */
 
-package binarySearch.Arrays_1D;
+package binarySearch.arrays_1D;
 
-public class simpleBinarySearch {
+public class SimpleBinarySearch {
     public int search(int[] nums, int target) {
         int n = nums.length;
         int low = 0, high = n-1;

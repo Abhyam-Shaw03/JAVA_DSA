@@ -14,9 +14,9 @@
     Explanation: The target value 2 is not found in the array. However, it should be inserted at index 1 to maintain the sorted order of the array.
 */
 
-package binarySearch.Arrays_1D;
+package binarySearch.arrays_1D;
 
-public class search_InsertPosition {
+public class Search_InsertPosition {
     public int searchInsert(int[] nums, int target) {
         int n = nums.length;
         int low = 0, high = n-1;
