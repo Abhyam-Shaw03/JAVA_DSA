@@ -1,5 +1,7 @@
 package recursion;
 
+import recursion.medium.SubsequenceWithSum_K;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,7 +18,7 @@ public class RecursionMain {
 
 //        subsequence_sumK.allSubsequence(0,arr,ans,arr.length,2,0);
 //        subsequence_sumK.onlyFirstSubsequenceOccurance(0, arr, ans, arr.length, 2, 0);
-        int count = subsequence_sumK.countAllSubsequncesWithSum_K(0, arr, ans, arr.length, 2, 0,0);
+        int count = subsequence_sumK.countAllSubsequncesWithSum_K(0, arr, arr.length, 2, 0,0);
         System.out.println(count);
     }
 }
